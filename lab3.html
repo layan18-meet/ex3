@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hi</title>
+
+	<script type="text/javascript">
+		alert("layan");
+	</script>
+	<script src="script1.js"></script>
+
+
+	
+</head>
+<body>
+	<script type="text/javascript">
+		alert("My master is xena");
+	</script>
+	<script src="script2.js"></script>
+
+	<script type="text/javascript">
+		var num1= prompt("Insert a number");
+		var num2= prompt("Insert another number");
+		var result= parseInt(num1)+ parseInt(num2);
+		alert(result);
+
+		var n1= prompt("Insert a number"); 
+		var n2= prompt("Insert another number");
+		var op= prompt("Insert the operator");
+
+		if (op ==='+') 
+		{
+			alert(parseInt(n1)+parseInt(n2));
+		}
+		else if (op ==="-")
+		{
+			alert(parseInt(n1)-parseInt(n2));
+		}
+		else if (op ==="*")
+		{
+			alert(parseInt(n1)*parseInt(n2));
+		}
+		
+		
+		var sum=0;
+		for (var i = 0 ; i <5; i++) {
+			sum+=parseInt(prompt("Insert a number")); 
+		}
+		alert(sum);
+
+		var n=prompt("insert a number now!");
+		while(n != -1){
+			alert(n*2);
+		}
+	</script>
+</body>
+</html>
